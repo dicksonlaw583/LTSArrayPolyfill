@@ -3,6 +3,7 @@
   "resourceVersion": "1.6",
   "name": "LTSArrayPolyfill",
   "resources": [
+    {"id":{"name":"array_contains","path":"scripts/array_contains/array_contains.yy",},"order":4,},
     {"id":{"name":"__GMA_SETTINGS__","path":"scripts/__GMA_SETTINGS__/__GMA_SETTINGS__.yy",},"order":1,},
     {"id":{"name":"lts_array_polyfill_test_array_all","path":"scripts/lts_array_polyfill_test_array_all/lts_array_polyfill_test_array_all.yy",},"order":2,},
     {"id":{"name":"GMAssert","path":"extensions/GMAssert/GMAssert.yy",},"order":0,},
@@ -14,6 +15,7 @@
     {"id":{"name":"lts_array_polyfill_test_array_concat","path":"scripts/lts_array_polyfill_test_array_concat/lts_array_polyfill_test_array_concat.yy",},"order":4,},
     {"id":{"name":"array_any","path":"scripts/array_any/array_any.yy",},"order":0,},
     {"id":{"name":"lts_array_polyfill_test_all","path":"scripts/lts_array_polyfill_test_all/lts_array_polyfill_test_all.yy",},"order":1,},
+    {"id":{"name":"lts_array_polyfill_test_array_contains","path":"scripts/lts_array_polyfill_test_array_contains/lts_array_polyfill_test_array_contains.yy",},"order":5,},
     {"id":{"name":"rm_lts_array_polyfill_test","path":"rooms/rm_lts_array_polyfill_test/rm_lts_array_polyfill_test.yy",},"order":0,},
   ],
   "Options": [

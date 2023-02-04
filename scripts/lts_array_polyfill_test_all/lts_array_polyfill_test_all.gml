@@ -11,6 +11,7 @@ function lts_array_polyfill_test_all() {
 	lts_array_polyfill_test_array_all();
 	lts_array_polyfill_test_array_any();
 	lts_array_polyfill_test_array_concat();
+	lts_array_polyfill_test_array_contains();
 	/* ^ Tests here ^ */
 	
 	timeB = current_time;
