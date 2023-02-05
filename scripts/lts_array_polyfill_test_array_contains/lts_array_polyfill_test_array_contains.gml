@@ -1,4 +1,4 @@
-///@func lts_array_polyfill_test_array_contains
+///@func lts_array_polyfill_test_array_contains()
 ///@desc Test array_contains polyfill.
 
 function lts_array_polyfill_test_array_contains(){

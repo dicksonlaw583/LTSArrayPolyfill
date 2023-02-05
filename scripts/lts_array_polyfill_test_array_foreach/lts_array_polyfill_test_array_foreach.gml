@@ -1,4 +1,4 @@
-///@func lts_array_polyfill_test_array_foreach
+///@func lts_array_polyfill_test_array_foreach()
 ///@desc Test array_foreach polyfill.
 
 function lts_array_polyfill_test_array_foreach(){

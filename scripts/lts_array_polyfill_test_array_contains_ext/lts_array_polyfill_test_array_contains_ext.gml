@@ -1,4 +1,4 @@
-///@func lts_array_polyfill_test_array_contains_ext
+///@func lts_array_polyfill_test_array_contains_ext()
 ///@desc Test array_contains_ext polyfill.
 
 function lts_array_polyfill_test_array_contains_ext(){	

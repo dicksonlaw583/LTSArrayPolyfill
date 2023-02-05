@@ -1,4 +1,4 @@
-///@func lts_array_polyfill_test_array_all
+///@func lts_array_polyfill_test_array_all()
 ///@desc Test array_all polyfill.
 
 function lts_array_polyfill_test_array_all(){

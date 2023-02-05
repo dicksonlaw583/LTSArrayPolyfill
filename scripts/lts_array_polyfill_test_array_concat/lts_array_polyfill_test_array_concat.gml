@@ -1,4 +1,4 @@
-///@func lts_array_polyfill_test_array_concat
+///@func lts_array_polyfill_test_array_concat()
 ///@desc Test array_concat polyfill.
 
 function lts_array_polyfill_test_array_concat(){
