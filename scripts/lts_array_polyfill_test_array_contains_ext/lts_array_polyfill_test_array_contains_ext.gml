@@ -3,11 +3,11 @@
 
 function lts_array_polyfill_test_array_contains_ext(){	
 	#region Basic matchSome tests
-	assert(array_contains_ext([2], [2]), "array_contains_ext matchSome true 1");
-	assert(array_contains_ext([1, 5, 6], [0, 5]), "array_contains_ext matchSome true 2");
-	assert_fail(array_contains_ext([1], [2]), "array_contains_ext matchSome false 1");
-	assert_fail(array_contains_ext([3, 5], [0, 2]), "array_contains_ext matchSome false 2");
-	assert_fail(array_contains_ext([], []), "array_contains_ext matchSome nullary");
+	assert(array_contains_ext([2], [2], false), "array_contains_ext matchSome true 1");
+	assert(array_contains_ext([1, 5, 6], [0, 5], false), "array_contains_ext matchSome true 2");
+	assert_fail(array_contains_ext([1], [2], false), "array_contains_ext matchSome false 1");
+	assert_fail(array_contains_ext([3, 5], [0, 2], false), "array_contains_ext matchSome false 2");
+	assert_fail(array_contains_ext([], [], false), "array_contains_ext matchSome nullary");
 	#endregion
 	
 	#region matchSome offset and range tests
