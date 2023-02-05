@@ -15,6 +15,7 @@ function lts_array_polyfill_test_all() {
 	lts_array_polyfill_test_array_contains_ext();
 	lts_array_polyfill_test_array_create_ext();
 	lts_array_polyfill_test_array_foreach();
+	lts_array_polyfill_test_array_filter();
 	/* ^ Tests here ^ */
 	
 	timeB = current_time;
