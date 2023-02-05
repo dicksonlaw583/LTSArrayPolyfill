@@ -3,6 +3,7 @@
   "resourceVersion": "1.6",
   "name": "LTSArrayPolyfill",
   "resources": [
+    {"id":{"name":"LTSArrayPolyfill_TestArray","path":"scripts/LTSArrayPolyfill_TestArray/LTSArrayPolyfill_TestArray.yy",},"order":12,},
     {"id":{"name":"array_contains","path":"scripts/array_contains/array_contains.yy",},"order":4,},
     {"id":{"name":"LTSArrayPolyfill_TestSpy","path":"scripts/LTSArrayPolyfill_TestSpy/LTSArrayPolyfill_TestSpy.yy",},"order":9,},
     {"id":{"name":"array_foreach","path":"scripts/array_foreach/array_foreach.yy",},"order":7,},
@@ -13,6 +14,7 @@
     {"id":{"name":"array_contains_ext","path":"scripts/array_contains_ext/array_contains_ext.yy",},"order":5,},
     {"id":{"name":"array_all","path":"scripts/array_all/array_all.yy",},"order":2,},
     {"id":{"name":"LTS_ARRAY_POLYFILL_MACROS","path":"scripts/LTS_ARRAY_POLYFILL_MACROS/LTS_ARRAY_POLYFILL_MACROS.yy",},"order":1,},
+    {"id":{"name":"array_filter_ext","path":"scripts/array_filter_ext/array_filter_ext.yy",},"order":9,},
     {"id":{"name":"array_filter","path":"scripts/array_filter/array_filter.yy",},"order":8,},
     {"id":{"name":"lts_array_polyfill_test_array_foreach","path":"scripts/lts_array_polyfill_test_array_foreach/lts_array_polyfill_test_array_foreach.yy",},"order":8,},
     {"id":{"name":"array_concat","path":"scripts/array_concat/array_concat.yy",},"order":3,},
@@ -21,6 +23,7 @@
     {"id":{"name":"lts_array_polyfill_test_array_concat","path":"scripts/lts_array_polyfill_test_array_concat/lts_array_polyfill_test_array_concat.yy",},"order":4,},
     {"id":{"name":"array_any","path":"scripts/array_any/array_any.yy",},"order":0,},
     {"id":{"name":"lts_array_polyfill_test_all","path":"scripts/lts_array_polyfill_test_all/lts_array_polyfill_test_all.yy",},"order":1,},
+    {"id":{"name":"lts_array_polyfill_test_array_filter_ext","path":"scripts/lts_array_polyfill_test_array_filter_ext/lts_array_polyfill_test_array_filter_ext.yy",},"order":11,},
     {"id":{"name":"lts_array_polyfill_test_array_contains_ext","path":"scripts/lts_array_polyfill_test_array_contains_ext/lts_array_polyfill_test_array_contains_ext.yy",},"order":6,},
     {"id":{"name":"lts_array_polyfill_test_array_filter","path":"scripts/lts_array_polyfill_test_array_filter/lts_array_polyfill_test_array_filter.yy",},"order":10,},
     {"id":{"name":"array_create_ext","path":"scripts/array_create_ext/array_create_ext.yy",},"order":6,},
