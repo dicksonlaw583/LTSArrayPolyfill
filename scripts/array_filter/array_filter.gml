@@ -3,7 +3,7 @@
 ///@arg {Function} predicate The Predicate Method to run on each element
 ///@arg {Real} [offset] OPTIONAL The offset, or starting index, in the array. Setting a negative value will count from the end of the array.
 ///@arg {Real} [length] OPTIONAL The number of elements to traverse. A negative value will traverse the array backwards.
-///@return {Array}
+///@return {Array<Any*>}
 ///@desc This function returns a new array that is the filtered version of the given array (or a range of it).
 ///
 ///You supply a Predicate Method which runs for all elements in the array. It should return either true or false based on a condition.
