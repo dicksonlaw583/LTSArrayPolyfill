@@ -23,6 +23,8 @@ function lts_array_polyfill_test_all() {
 	lts_array_polyfill_test_array_map();
 	lts_array_polyfill_test_array_map_ext();
 	lts_array_polyfill_test_array_reduce();
+	lts_array_polyfill_test_array_reverse();
+	lts_array_polyfill_test_array_reverse_ext();
 	lts_array_polyfill_test_array_union();
 	/* ^ Tests here ^ */
 	
