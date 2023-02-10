@@ -44,6 +44,7 @@
     {"id":{"name":"array_shuffle","path":"scripts/array_shuffle/array_shuffle.yy",},"order":19,},
     {"id":{"name":"lts_array_polyfill_test_array_get_index","path":"scripts/lts_array_polyfill_test_array_get_index/lts_array_polyfill_test_array_get_index.yy",},"order":13,},
     {"id":{"name":"lts_array_polyfill_test_array_filter_ext","path":"scripts/lts_array_polyfill_test_array_filter_ext/lts_array_polyfill_test_array_filter_ext.yy",},"order":11,},
+    {"id":{"name":"array_unique","path":"scripts/array_unique/array_unique.yy",},"order":22,},
     {"id":{"name":"lts_array_polyfill_test_array_contains_ext","path":"scripts/lts_array_polyfill_test_array_contains_ext/lts_array_polyfill_test_array_contains_ext.yy",},"order":6,},
     {"id":{"name":"array_union","path":"scripts/array_union/array_union.yy",},"order":12,},
     {"id":{"name":"lts_array_polyfill_test_array_filter","path":"scripts/lts_array_polyfill_test_array_filter/lts_array_polyfill_test_array_filter.yy",},"order":10,},
@@ -52,6 +53,7 @@
     {"id":{"name":"array_copy_while","path":"scripts/array_copy_while/array_copy_while.yy",},"order":21,},
     {"id":{"name":"lts_array_polyfill_test_array_contains","path":"scripts/lts_array_polyfill_test_array_contains/lts_array_polyfill_test_array_contains.yy",},"order":5,},
     {"id":{"name":"lts_array_polyfill_test_array_intersection","path":"scripts/lts_array_polyfill_test_array_intersection/lts_array_polyfill_test_array_intersection.yy",},"order":14,},
+    {"id":{"name":"lts_array_polyfill_test_array_unique","path":"scripts/lts_array_polyfill_test_array_unique/lts_array_polyfill_test_array_unique.yy",},"order":25,},
     {"id":{"name":"rm_lts_array_polyfill_test","path":"rooms/rm_lts_array_polyfill_test/rm_lts_array_polyfill_test.yy",},"order":0,},
   ],
   "Options": [

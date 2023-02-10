@@ -29,6 +29,7 @@ function lts_array_polyfill_test_all() {
 	lts_array_polyfill_test_array_shuffle();
 	lts_array_polyfill_test_array_shuffle_ext();
 	lts_array_polyfill_test_array_union();
+	lts_array_polyfill_test_array_unique();
 	/* ^ Tests here ^ */
 	
 	timeB = current_time;
