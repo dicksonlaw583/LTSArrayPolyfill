@@ -13,6 +13,7 @@ function lts_array_polyfill_test_all() {
 	lts_array_polyfill_test_array_concat();
 	lts_array_polyfill_test_array_contains();
 	lts_array_polyfill_test_array_contains_ext();
+	lts_array_polyfill_test_array_copy_while();
 	lts_array_polyfill_test_array_create_ext();
 	lts_array_polyfill_test_array_find_index();
 	lts_array_polyfill_test_array_foreach();
