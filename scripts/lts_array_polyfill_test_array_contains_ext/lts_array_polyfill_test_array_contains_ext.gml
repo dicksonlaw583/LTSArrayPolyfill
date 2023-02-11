@@ -7,7 +7,7 @@ function lts_array_polyfill_test_array_contains_ext(){
 	assert(array_contains_ext([1, 5, 6], [0, 5], false), "array_contains_ext matchSome true 2");
 	assert_fail(array_contains_ext([1], [2], false), "array_contains_ext matchSome false 1");
 	assert_fail(array_contains_ext([3, 5], [0, 2], false), "array_contains_ext matchSome false 2");
-	assert_fail(array_contains_ext([], [], false), "array_contains_ext matchSome nullary");
+	assert(array_contains_ext([], [], false), "array_contains_ext matchSome nullary");
 	#endregion
 	
 	#region matchSome offset and range tests
@@ -27,7 +27,7 @@ function lts_array_polyfill_test_array_contains_ext(){
 	assert_fail(array_contains_ext([1], [2], true), "array_contains_ext matchAll false 1");
 	assert_fail(array_contains_ext([3, 5], [0, 2], true), "array_contains_ext matchAll false 2");
 	assert_fail(array_contains_ext([3, 5], [3, 2], true), "array_contains_ext matchAll false 3");
-	assert_fail(array_contains_ext([], [], true), "array_contains_ext matchAll nullary");
+	assert(array_contains_ext([], [], true), "array_contains_ext matchAll nullary");
 	#endregion
 	
 	#region matchAll offset and range tests

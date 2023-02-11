@@ -15,6 +15,7 @@
 ///
 ///https://manual.yoyogames.com/#t=GameMaker_Language%2FGML_Reference%2FVariable_Functions%2Farray_contains_ext.htm
 function array_contains_ext(array, values, matchAll=false, offset=0, length=infinity){
+	if (array_length(values) == 0) return true;
 	var foundMatch = false;
 	for (var j = array_length(values)-1; j >= 0; --j) {
 		if (array_contains(array, values[j], offset, length)) {
