@@ -13,9 +13,9 @@ function lts_array_polyfill_test_array_map(){
 	#endregion
 	
 	#region Offset and range tests
-	assert_equal(array_map([1, 4, 6], mapper, 1), [1, 41, 62], "array_map offset 1");
-	assert_equal(array_map([1, 4, 6], mapper, -2), [1, 41, 62], "array_map offset 2");
-	assert_equal(array_map([1, 4, 6, 7], mapper, 1, 2), [1, 41, 62, 7], "array_map range 1");
-	assert_equal(array_map([1, 4, 6, 7], mapper, -2, -2), [1, 41, 62, 7], "array_map range 2");
+	assert_equal(array_map([1, 4, 6], mapper, 1), [41, 62], "array_map offset 1");
+	assert_equal(array_map([1, 4, 6], mapper, -2), [41, 62], "array_map offset 2");
+	assert_equal(array_map([1, 4, 6, 7], mapper, 1, 2), [41, 62], "array_map range 1");
+	assert_equal(array_map([1, 4, 6, 7], mapper, -2, -2), [62, 41], "array_map range 2");
 	#endregion
 }
