@@ -12,7 +12,7 @@ This library allows you to use `array_*` functions introduced in 2022.9 and abov
 
 ## Installation
 
-Get the current asset package and associated documentation from [the releases page](https://github.com/dicksonlaw583/LTSArrayPolyfill/releases). Simply extract all the scripts into your project.
+Get the current asset package from [the releases page](https://github.com/dicksonlaw583/LTSArrayPolyfill/releases). Simply extract all the scripts into your project.
 
 ## Supported Functions
 
