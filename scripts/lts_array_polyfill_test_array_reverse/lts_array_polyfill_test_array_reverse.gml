@@ -10,9 +10,9 @@ function lts_array_polyfill_test_array_reverse(){
 	#endregion
 	
 	#region Offset and range tests
-	assert_equal(array_reverse([1, 4, 5, 6, 7], 1), [1, 7, 6, 5, 4], "array_reverse offset 1");
-	assert_equal(array_reverse([1, 4, 5, 6, 7], -3), [1, 4, 7, 6, 5], "array_reverse offset 2");
-	assert_equal(array_reverse([1, 4, 5, 6, 7], 1, 3), [1, 6, 5, 4, 7], "array_reverse range 1");
-	assert_equal(array_reverse([4, 5, 6, 7, 1], -2, -4), [7, 6, 5, 4, 1], "array_reverse range 2");
+	assert_equal(array_reverse([1, 4, 5, 6, 7], 1), [7, 6, 5, 4], "array_reverse offset 1");
+	assert_equal(array_reverse([1, 4, 5, 6, 7], -3), [7, 6, 5], "array_reverse offset 2");
+	assert_equal(array_reverse([1, 4, 5, 6, 7], 1, 3), [6, 5, 4], "array_reverse range 1");
+	assert_equal(array_reverse([4, 5, 6, 7, 1], -2, -4), [4, 5, 6, 7], "array_reverse range 2");
 	#endregion
 }
