@@ -15,12 +15,17 @@
 ///https://manual.yoyogames.com/#t=GameMaker_Language%2FGML_Reference%2FVariable_Functions%2Farray_filter_ext.htm
 function array_filter_ext(array, predicate, offset=0, length=infinity){
 	var nValid = 0;
+	var writeIndex = -1;
 	LTS_ARRAY_LOOP {
+		if (writeIndex < 0) {
+			writeIndex = i;
+		}
 		if (predicate(array[i], i)) {
 			++nValid;
-		} else {
-			array_delete(array, i, 1);
-			LTS_SKIP_DELETE_ITERATION;
+			if (i != writeIndex) {
+				array[@writeIndex] = array[i];
+			}
+			writeIndex += iStep;
 		}
 	}
 	return nValid;
