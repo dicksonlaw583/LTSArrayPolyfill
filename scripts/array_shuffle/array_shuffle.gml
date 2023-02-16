@@ -10,10 +10,9 @@
 ///https://manual.yoyogames.com/#t=GameMaker_Language%2FGML_Reference%2FVariable_Functions%2Farray_shuffle.htm
 function array_shuffle(array, offset=0, length=infinity) {
 	var result = [];
-	var nResult = 0;
 	LTS_ARRAY_LOOP {
-		array_insert(result, irandom(nResult), array[i]);
-		++nResult;
+		array_push(result, array[i]);
 	};
+	array_shuffle_ext(result);
 	return result;
 }
