@@ -25,6 +25,7 @@
     {"id":{"name":"array_map_ext","path":"scripts/array_map_ext/array_map_ext.yy",},"order":15,},
     {"id":{"name":"lts_array_polyfill_test_array_map_ext","path":"scripts/lts_array_polyfill_test_array_map_ext/lts_array_polyfill_test_array_map_ext.yy",},"order":18,},
     {"id":{"name":"GMAssert","path":"extensions/GMAssert/GMAssert.yy",},"order":0,},
+    {"id":{"name":"array_first","path":"scripts/array_first/array_first.yy",},"order":24,},
     {"id":{"name":"lts_array_polyfill_test_array_shuffle","path":"scripts/lts_array_polyfill_test_array_shuffle/lts_array_polyfill_test_array_shuffle.yy",},"order":22,},
     {"id":{"name":"array_contains_ext","path":"scripts/array_contains_ext/array_contains_ext.yy",},"order":5,},
     {"id":{"name":"lts_array_polyfill_test_array_find_index","path":"scripts/lts_array_polyfill_test_array_find_index/lts_array_polyfill_test_array_find_index.yy",},"order":16,},
@@ -46,6 +47,7 @@
     {"id":{"name":"array_shuffle","path":"scripts/array_shuffle/array_shuffle.yy",},"order":19,},
     {"id":{"name":"lts_array_polyfill_test_array_get_index","path":"scripts/lts_array_polyfill_test_array_get_index/lts_array_polyfill_test_array_get_index.yy",},"order":13,},
     {"id":{"name":"lts_array_polyfill_test_array_filter_ext","path":"scripts/lts_array_polyfill_test_array_filter_ext/lts_array_polyfill_test_array_filter_ext.yy",},"order":11,},
+    {"id":{"name":"lts_array_polyfill_test_array_first","path":"scripts/lts_array_polyfill_test_array_first/lts_array_polyfill_test_array_first.yy",},"order":27,},
     {"id":{"name":"array_unique","path":"scripts/array_unique/array_unique.yy",},"order":22,},
     {"id":{"name":"lts_array_polyfill_test_array_contains_ext","path":"scripts/lts_array_polyfill_test_array_contains_ext/lts_array_polyfill_test_array_contains_ext.yy",},"order":6,},
     {"id":{"name":"array_union","path":"scripts/array_union/array_union.yy",},"order":12,},
@@ -96,6 +98,6 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2022.0.0.19",
+    "IDEVersion": "2022.0.2.51",
   },
 }
