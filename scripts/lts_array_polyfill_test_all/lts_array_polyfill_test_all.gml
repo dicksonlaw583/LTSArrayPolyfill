@@ -22,6 +22,7 @@ function lts_array_polyfill_test_all() {
 	lts_array_polyfill_test_array_filter_ext();
 	lts_array_polyfill_test_array_get_index();
 	lts_array_polyfill_test_array_intersection();
+	lts_array_polyfill_test_array_last();
 	lts_array_polyfill_test_array_map();
 	lts_array_polyfill_test_array_map_ext();
 	lts_array_polyfill_test_array_reduce();
