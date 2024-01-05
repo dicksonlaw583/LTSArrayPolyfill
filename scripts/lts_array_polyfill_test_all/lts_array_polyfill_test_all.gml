@@ -28,6 +28,7 @@ function lts_array_polyfill_test_all() {
 	lts_array_polyfill_test_array_reduce();
 	lts_array_polyfill_test_array_reverse();
 	lts_array_polyfill_test_array_reverse_ext();
+	lts_array_polyfill_test_array_shift();
 	lts_array_polyfill_test_array_shuffle();
 	lts_array_polyfill_test_array_shuffle_ext();
 	lts_array_polyfill_test_array_union();
