@@ -15,7 +15,7 @@
 ///
 ///When the callback function returns a value, it's carried over into the next iteration. This process is repeated, until the given array (or the provided range) has been fully iterated. The function returns the value obtained from the final element's callback.
 ///
-///https://manual.yoyogames.com/#t=GameMaker_Language%2FGML_Reference%2FVariable_Functions%2Farray_reduce.htm
+///https://manual.gamemaker.io/monthly/en/#t=GameMaker_Language%2FGML_Reference%2FVariable_Functions%2Farray_reduce.htm
 function array_reduce(array, reducer, init=undefined, offset=0, length=infinity) {
 	var result = init ?? array[(offset < 0) ? array_length(array)+offset : offset];
 	LTS_ARRAY_LOOP {

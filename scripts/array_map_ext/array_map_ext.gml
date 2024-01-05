@@ -10,7 +10,7 @@
 ///
 ///This function returns the new number of valid elements, starting at the given offset position and in the direction set by the length argument. For this function, it's the number of elements modified in the given range.
 ///
-///https://manual.yoyogames.com/#t=GameMaker_Language%2FGML_Reference%2FVariable_Functions%2Farray_map_ext.htm
+///https://manual.gamemaker.io/monthly/en/#t=GameMaker_Language%2FGML_Reference%2FVariable_Functions%2Farray_map_ext.htm
 function array_map_ext(array, mapper, offset=0, length=infinity) {
 	var nMods = 0;
 	LTS_ARRAY_LOOP {

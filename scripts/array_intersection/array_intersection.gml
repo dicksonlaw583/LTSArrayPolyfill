@@ -4,7 +4,7 @@
 ///
 ///The function also removes any duplicates found in the intersection, so it only returns unique values.
 ///
-///https://manual.yoyogames.com/#t=GameMaker_Language%2FGML_Reference%2FVariable_Functions%2Farray_intersection.htm
+///https://manual.gamemaker.io/monthly/en/#t=GameMaker_Language%2FGML_Reference%2FVariable_Functions%2Farray_intersection.htm
 function array_intersection(){
 	var result = array_create(array_length(argument[0]));
 	array_copy(result, 0, argument[0], 0, array_length(argument[0]));

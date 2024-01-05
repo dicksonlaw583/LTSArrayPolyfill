@@ -12,7 +12,7 @@
 ///
 ///TIP If you're looking for the index of the first array element that satisfies a condition, use array_find_index.
 ///
-///https://manual.yoyogames.com/#t=GameMaker_Language%2FGML_Reference%2FVariable_Functions%2Farray_get_index.htm
+///https://manual.gamemaker.io/monthly/en/#t=GameMaker_Language%2FGML_Reference%2FVariable_Functions%2Farray_get_index.htm
 function array_get_index(array, value, offset=0, length=infinity){
 	LTS_ARRAY_LOOP {
 		if (array[i] == value) return i;

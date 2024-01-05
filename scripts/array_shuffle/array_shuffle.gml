@@ -7,7 +7,7 @@
 ///
 ///NOTE See array_shuffle_ext for the function that changes the original array in place.
 ///
-///https://manual.yoyogames.com/#t=GameMaker_Language%2FGML_Reference%2FVariable_Functions%2Farray_shuffle.htm
+///https://manual.gamemaker.io/monthly/en/#t=GameMaker_Language%2FGML_Reference%2FVariable_Functions%2Farray_shuffle.htm
 function array_shuffle(array, offset=0, length=infinity) {
 	var result = [];
 	LTS_ARRAY_LOOP {

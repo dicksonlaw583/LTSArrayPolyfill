@@ -10,7 +10,7 @@
 ///
 ///NOTE: This function is identical to array_filter with the difference that this function stops execution after the first time the predicate function returns false. array_filter on the other hand continues to check elements, even after encountering an element for which the predicate function returns false.
 ///
-///https://manual.yoyogames.com/#t=GameMaker_Language%2FGML_Reference%2FVariable_Functions%2Farray_copy_while.htm
+///https://manual.gamemaker.io/monthly/en/#t=GameMaker_Language%2FGML_Reference%2FVariable_Functions%2Farray_copy_while.htm
 function array_copy_while(array, predicate, offset=0, length=infinity) {
 	var result = [];
 	LTS_ARRAY_LOOP {

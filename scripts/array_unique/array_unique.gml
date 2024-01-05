@@ -5,7 +5,7 @@
 ///@return {Array<Any>}
 ///@desc This function returns a new array containing the values of the input array (or a range of it) with any duplicate values removed.
 ///
-///https://manual.yoyogames.com/#t=GameMaker_Language%2FGML_Reference%2FVariable_Functions%2Farray_unique.htm
+///https://manual.gamemaker.io/monthly/en/#t=GameMaker_Language%2FGML_Reference%2FVariable_Functions%2Farray_unique.htm
 function array_unique(array, offset=0, length=infinity) {
 	var result = [];
 	LTS_ARRAY_LOOP {

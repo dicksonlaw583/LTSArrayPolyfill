@@ -12,7 +12,7 @@
 ///
 ///By default the function checks the whole array. You can optionally supply Offset And Length arguments to check a part of the array, traversing the array forward or backward.
 ///
-///https://manual.yoyogames.com/#t=GameMaker_Language%2FGML_Reference%2FVariable_Functions%2Farray_filter.htm
+///https://manual.gamemaker.io/monthly/en/#t=GameMaker_Language%2FGML_Reference%2FVariable_Functions%2Farray_filter.htm
 function array_filter(array, predicate, offset=0, length=infinity) {
 	var result = [];
 	LTS_ARRAY_LOOP {
