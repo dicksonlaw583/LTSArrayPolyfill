@@ -9,7 +9,7 @@
 ///
 ///It returns the number of elements written back to the array.
 ///
-///https://manual.yoyogames.com/#t=GameMaker_Language%2FGML_Reference%2FVariable_Functions%2Farray_unique_ext.htm
+///https://manual.gamemaker.io/monthly/en/#t=GameMaker_Language%2FGML_Reference%2FVariable_Functions%2Farray_unique_ext.htm
 function array_unique_ext(array, offset=0, length=infinity) {
 	var found = [];
 	var writeIndex = -1;

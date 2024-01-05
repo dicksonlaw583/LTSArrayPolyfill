@@ -9,7 +9,7 @@
 ///
 ///The function returns the number of elements that were modified in the array.
 ///
-///https://manual.yoyogames.com/#t=GameMaker_Language%2FGML_Reference%2FVariable_Functions%2Farray_reverse_ext.htm
+///https://manual.gamemaker.io/monthly/en/#t=GameMaker_Language%2FGML_Reference%2FVariable_Functions%2Farray_reverse_ext.htm
 function array_reverse_ext(array, offset=0, length=infinity) {
 	var nSwaps = 0;
 	var revOffset = 0;

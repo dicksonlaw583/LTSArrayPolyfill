@@ -10,7 +10,7 @@
 ///
 ///After the callback is executed for all elements, the modified array is returned. The original array is not changed; for that, see array_map_ext.
 ///
-///https://manual.yoyogames.com/#t=GameMaker_Language%2FGML_Reference%2FVariable_Functions%2Farray_map.htm
+///https://manual.gamemaker.io/monthly/en/#t=GameMaker_Language%2FGML_Reference%2FVariable_Functions%2Farray_map.htm
 function array_map(array, mapper, offset=0, length=infinity) {
 	var result = [];
 	LTS_ARRAY_LOOP {

@@ -8,7 +8,7 @@
 ///
 ///This function returns true if your predicate function returns true for all of the elements in the given array range, otherwise it returns false.
 ///
-///https://manual.yoyogames.com/#t=GameMaker_Language%2FGML_Reference%2FVariable_Functions%2Farray_all.htm
+///https://manual.gamemaker.io/monthly/en/#t=GameMaker_Language%2FGML_Reference%2FVariable_Functions%2Farray_all.htm
 function array_all(array, predicate, offset=0, length=infinity) {
 	LTS_ARRAY_LOOP {
 		if (!predicate(array[i], i)) return false;

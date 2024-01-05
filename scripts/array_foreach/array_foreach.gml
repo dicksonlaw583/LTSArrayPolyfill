@@ -5,7 +5,7 @@
 ///@arg {Real} length OPTIONAL: The number of elements to traverse. A negative value will traverse the array backwards.
 ///@desc This function loops through an array (or a range of it) and executes the Callback Method for each element.
 ///
-///https://manual.yoyogames.com/#t=GameMaker_Language%2FGML_Reference%2FVariable_Functions%2Farray_foreach.htm
+///https://manual.gamemaker.io/monthly/en/#t=GameMaker_Language%2FGML_Reference%2FVariable_Functions%2Farray_foreach.htm
 function array_foreach(array, func, offset=0, length=infinity) {
 	LTS_ARRAY_LOOP {
 		func(array[i], i);

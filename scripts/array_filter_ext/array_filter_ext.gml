@@ -12,7 +12,7 @@
 ///
 ///This function returns the new number of valid elements, starting at the given offset position and in the direction set by the length argument. For this function, it's the number of elements for which the predicate returned true, and were written back to the array.
 ///
-///https://manual.yoyogames.com/#t=GameMaker_Language%2FGML_Reference%2FVariable_Functions%2Farray_filter_ext.htm
+///https://manual.gamemaker.io/monthly/en/#t=GameMaker_Language%2FGML_Reference%2FVariable_Functions%2Farray_filter_ext.htm
 function array_filter_ext(array, predicate, offset=0, length=infinity){
 	var nValid = 0;
 	var writeIndex = -1;

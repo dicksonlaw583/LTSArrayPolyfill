@@ -12,7 +12,7 @@
 ///
 ///If the predicate doesn't return true on any element, the function returns -1.
 ///
-///https://manual.yoyogames.com/#t=GameMaker_Language%2FGML_Reference%2FVariable_Functions%2Farray_find_index.htm
+///https://manual.gamemaker.io/monthly/en/#t=GameMaker_Language%2FGML_Reference%2FVariable_Functions%2Farray_find_index.htm
 function array_find_index(array, predicate, offset=0, length=infinity) {
 	LTS_ARRAY_LOOP {
 		if (predicate(array[i], i)) return i;

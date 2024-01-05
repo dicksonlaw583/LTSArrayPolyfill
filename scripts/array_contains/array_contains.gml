@@ -8,7 +8,7 @@
 ///
 ///TIP To check if an array not just contains a value but rather contains a value that satisfies a certain condition, use array_any.
 ///
-///https://manual.yoyogames.com/#t=GameMaker_Language%2FGML_Reference%2FVariable_Functions%2Farray_contains.htm
+///https://manual.gamemaker.io/monthly/en/#t=GameMaker_Language%2FGML_Reference%2FVariable_Functions%2Farray_contains.htm
 function array_contains(array, value, offset=0, length=infinity){
 	LTS_ARRAY_LOOP {
 		if (array[i] == value) return true;
